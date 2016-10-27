@@ -1,0 +1,172 @@
+.banner{
+    height:667px;
+    background:url("../images/product-banner.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner .banner-text{
+    width:364px;
+    position: absolute;
+    left:170px;
+    top:175px;
+    color:#181818;
+}
+.banner-text .line{
+    width: 130px;
+    height:5px;
+    background:#e7dc22;
+}
+.banner .banner-text h3{
+    line-height:100px;
+    height:100px;
+    font-size:48px;
+    font-weight: lighter;
+}
+.banner .banner-text h3 span{
+    font-family:"Arial Bold";
+    text-transform:uppercase;
+}
+.banner .banner-text h3 span i{
+    font-style: normal;
+    font-size: 85px;
+}
+.banner .banner-text .banner-title{
+    font-size:48px;
+    line-height:56px;
+    height:56px;
+    padding-bottom:28px;
+}
+.banner .banner-text li{
+    height:30px;
+    line-height:30px;
+    font-size:20px;
+}
+.banner .banner-text .more{
+    height:70px;
+    line-height:70px;
+    text-align: right;
+}
+.banner .banner-text .more i{
+    font-style: normal;
+    padding-left:20px;
+}
+
+.main-top{
+    height:68px;
+    line-height: 68px;
+    background:#272726;
+}
+.main-top .location{
+    padding-left:344px;
+}
+.main-top .location li{
+    float: left;
+    list-style:disc;
+    font-size:12px;
+    color:#fff;
+    padding-right:6px;
+}
+.main-top .location .ac{
+    color:#fff;
+}
+.main-bot .inner{
+    position: relative;
+}
+.main-bot-left{
+    width:259px;
+    height:522px;
+    border:5px solid #fef001;
+    position: absolute;
+    left: 31px;
+    top: -40px;
+}
+.main-bot-left .info{
+    width:261px;
+    height:496px;
+    padding-top:39px;
+    background:#424243;
+    position: absolute;
+    left: -33px;
+    top:-33px;
+}
+.main-bot-left .info li{
+    position: relative;
+    margin-bottom:7px;
+    padding:6px 0 7px 45px;
+}
+.main-bot-left .info li:hover,
+.main-bot-left .info .ac{
+    background:#fef001;
+}
+.main-bot-left .info li::after{
+    content:"";
+    width:4px;
+    height:4px;
+    background:#d6d7d8;
+    position: absolute;
+    border-radius:50%;
+    left:32px;
+    top:20px;
+}
+.main-bot-left .info li p{
+    height:29px;
+    line-height:29px;
+    font-size:18px;
+}
+.main-bot-left .info li span{
+    height:15px;
+    line-height:15px;
+    font-size:12px;
+    text-transform: uppercase;
+}
+.main-bot-left .info li i{
+    position: absolute;
+    width:20px;
+    height:11px;
+    background: url("../images/arrow-down.jpg") no-repeat;
+    right:27px;
+    top:27px;
+}
+.main-bot-left .info li:hover i,
+.main-bot-left .info .ac i{
+    background: url("../images/arrow-down2.jpg") no-repeat;
+}
+
+.main-bot-right{
+    float: right;
+    width:870px;
+    padding:131px 0 0 30px;
+}
+.productList{
+    width: 950px;
+}
+.productList li{
+    width:407px;
+    float: left;
+    margin-right:54px;
+}
+.productList .pic{
+    border-bottom:2px solid #e7dc22;
+}
+.productList .pic img{
+    display: block;
+}
+.productList .text{
+    font-size:16px;
+}
+.productList .text p{
+    line-height:42px;
+    margin:25px 0 12px;
+    letter-spacing:4px;
+    text-transform: uppercase;
+}
+.productList .text .btn{
+    display: block;
+    width: 71px;
+    height:27px;
+    line-height:27px;
+    text-align: center;
+    color:#000;
+    background:url("../images/ck-bj.png") no-repeat;
+    margin-bottom:47px;
+}

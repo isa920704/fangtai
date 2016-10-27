@@ -1,0 +1,206 @@
+.banner{
+    height:550px;
+    background: url("../images/ct-banner.jpg") no-repeat;
+    background-size: cover;
+}
+.banner .inner{
+    position: relative;
+    height:550px;
+}
+.banner .banner-text{
+    width:300px;
+    height:250px;
+    position: absolute;
+    top:88px;
+    color:#fff;
+    /*background: pink;*/
+    /*z-index:9;*/
+}
+.banner .banner-text h3{
+    line-height:92px;
+    height:92px;
+    font-size:48px;
+    font-weight: normal;
+    padding-top:20px;
+}
+.banner .banner-text h3 span{
+    font-family:"Arial Bold";
+    color:#ffcf01;
+    padding-right:10px;
+    text-transform:uppercase;
+}
+.banner .banner-text h3 span i{
+    font-style: normal;
+    font-size: 85px;
+}
+.banner .banner-text .banner-title{
+    font-size:48px;
+    line-height:64px;
+    height:64px;
+}
+.banner .banner-text .tag{
+    padding-left: 27px;
+    font-size: 20px;
+    line-height:62px;
+    height:62px;
+}
+
+.main-top{
+    background:#efefef;
+    padding-bottom:102px;
+}
+.main-top .inner>h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:30px;
+}
+.main-top .title-en{
+    padding-top:88px;
+    height:47px;
+    line-height:47px;
+}
+.main-top .title-ch{
+    height: 56px;
+    line-height: 56px;
+    padding-bottom: 42px;
+    font-weight: normal;
+}
+.main-top .main-top-con-left{
+    width:514px;
+    float: left;
+    padding:20px 68px 0 86px;
+}
+.main-top .main-box{
+    background:#fff;
+    box-shadow:0 0 20px 0 rgba(0,0,0,.2);
+}
+.main-top .main-box h2{
+    height:85px;
+    line-height:85px;
+    padding-left:9px;
+    font-size:36px;
+}
+.main-top .main-top-con-left p{
+    line-height:20px;
+    font-size:14px;
+    padding:0 13px 42px 5px;
+    margin-bottom:61px;
+    border-bottom: 1px solid #ffcf01;
+}
+.main-top .main-top-con-left h3{
+    height:65px;
+    line-height:65px;
+    font-size:30px;
+    font-weight: normal;
+    padding-bottom:54px;
+}
+.main-top .main-top-con-left h3 span{
+    display: inline-block;
+    border-bottom: 1px solid #ffcf01;
+    padding:0 170px 0 70px;
+}
+.main-top .main-top-con-left .next{
+    display: block;
+    width:110px;
+    height:36px;
+    line-height:36px;
+    text-align: center;
+    border-radius:15px;
+    background: #272727;
+    color:#fff;
+    margin-bottom:72px;
+}
+.main-top .main-top-con-right{
+    width:379px;
+    float: right;
+    padding:20px 41px 0 80px;
+}
+.main-top .main-top-con-right ul{
+    padding-bottom:38px;
+}
+.main-top .main-top-con-right li{
+    height:124px;
+    border-bottom: 1px solid #ffcf01;
+    padding-left:52px;
+}
+.main-top .main-top-con-right li:nth-child(1){
+    background: url("../images/main-r-p1.jpg") no-repeat 9px 30px;
+}
+.main-top .main-top-con-right li:nth-child(2){
+    background: url("../images/main-r-p2.jpg") no-repeat 0 55px;
+}
+.main-top .main-top-con-right li:last-child{
+    background: url("../images/main-r-p3.jpg") no-repeat 0 56px;
+    border-bottom:none;
+}
+.main-top .main-top-con-right li:nth-child(1) h6{
+    padding-top:30px;
+}
+.main-top .main-top-con-right li h6{
+    height:17px;
+    line-height:17px;
+    padding-top:54px;
+}
+.main-top .main-top-con-right li p{
+    height:40px;
+    line-height:40px;
+}
+.main-bot .main-bot-detail{
+    padding:84px 0 11px;
+    border-bottom:2px solid #ffcf01;
+}
+.main-bot .main-bot-detail h3{
+    height:56px;
+    line-height:56px;
+}
+.main-bot .main-bot-detail ul{
+    margin-bottom:47px;
+}
+.main-bot .main-bot-detail li{
+    line-height:24px;
+    height:24px;
+    font-size:14px;
+}
+.main-bot .main-bot-detail p{
+    line-height:24px;
+    margin-bottom:30px;
+}
+.main-bot .main-bot-detail p.frist{
+    color: #ffcf01;
+}
+
+.main-bot .main-bot-pic{
+    margin-bottom:120px;
+}
+.main-bot .main-bot-pic h3{
+    height:89px;
+    line-height:89px;
+    padding-top: 67px;
+}
+.main-bot .main-bot-pic h3 a{
+    display: block;
+    float: right;
+    height:20px;
+    line-height:20px;
+    padding-left: 57px;
+    margin-top:13px;
+    text-transform: uppercase;
+    background: url("../images/main-bot-more-bj.jpg") no-repeat;
+    color:#000;
+}
+.main-bot .main-bot-pic ul{
+    width:1500px;
+}
+.main-bot .main-bot-pic li{
+    float: left;
+    margin-right:30px;
+}
+.main-bot .main-bot-pic li img{
+    display: block;
+}
+
+
+
+.map img{
+    display: block;
+}
